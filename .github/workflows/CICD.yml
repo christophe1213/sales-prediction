@@ -16,7 +16,7 @@ jobs:
           python-version: '3.11'
 
       - name: Installer les dépendances
-        run: pip install -r requirements.txt pytest httpx
+        run: pip install -r requirements.txt
 
       - name: Configurer DVC et récupérer les données
         env:
