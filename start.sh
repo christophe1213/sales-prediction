@@ -2,7 +2,7 @@
 set -e
 
 git init -q
-echo "salut $DAGSHUB_USER "
+echo "salut user $DAGSHUB_USER "
 
 dvc remote modify origin --local auth basic
 dvc remote modify origin --local user "$DAGSHUB_USER"
